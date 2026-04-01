@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hoodtrap Beats | Yombol Music – Cyber Street Edition</title>
+    <meta name="description" content="Hard-hitting Hoodtrap and Dark Trap beats. High energy and street vibes. Prices from $5, instant delivery. Buy exclusive Hoodtrap instrumentals!">
+    <meta name="keywords" content="Hoodtrap, Dark Trap, street beats, underground trap, cyber trap, Yombol Music, Beatstars, exclusive beats">
+    <meta name="author" content="Yombol Music">
+    <link rel="canonical" href="https://Hoodtrap.YombolMusic.com">
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1408373406987633');
+    fbq('track', 'PageView');
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --neon-cyan: #00f2ff;
+            --neon-green: #39ff14;
+            --bg-dark: #020202;
+            --text-light: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        .bg-wrapper {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -1;
+            background: #000;
+            overflow: hidden;
+        }
+
+        .shape {
+            position: absolute;
+            background: linear-gradient(45deg, var(--neon-cyan), transparent);
+            filter: blur(80px);
+            opacity: 0.2;
+            animation: moveShape 20s infinite alternate ease-in-out;
+        }
+
+        .shape-1 { width: 400px; height: 400px; top: 10%; left: -10%; clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+        .shape-2 { width: 500px; height: 500px; bottom: 10%; right: -10%; clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); background: var(--neon-green); }
+
+        @keyframes moveShape {
+            0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            100% { transform: translate(10%, 15%) scale(1.2) rotate(45deg); }
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+
+        section { padding: 40px 0; }
+
+        .banner {
+            width: 100%;
+            margin: 20px auto; 
+            border-radius: 8px;
+            overflow: hidden;
+            border: 3px solid var(--neon-cyan);
+            box-shadow: 0 0 50px rgba(0, 242, 255, 0.7), inset 0 0 20px rgba(0, 242, 255, 0.4);
+            line-height: 0;
+        }
+
+        .banner img { width: 100%; height: auto; display: block; object-fit: cover; }
+
+        .player-container {
+            width: 100%;
+            background: #000;
+            border-radius: 8px;
+            border: 3px solid var(--neon-green);
+            overflow: hidden;
+            box-shadow: 0 0 60px rgba(57, 255, 20, 0.5);
+        }
+
+        .section-title {
+            text-align: center; margin-bottom: 40px; font-size: 2.8rem; font-weight: 800;
+            text-transform: uppercase; letter-spacing: 4px; color: #fff;
+            text-shadow: 0 0 25px var(--neon-cyan);
+        }
+
+        .pricing-table { display: flex; flex-direction: column; gap: 15px; }
+
+        .price-row {
+            background: rgba(10, 10, 10, 0.9);
+            border-left: 5px solid var(--neon-cyan);
+            padding: 30px; display: grid; grid-template-columns: 1fr 2fr 1fr;
+            align-items: center; transition: 0.4s; position: relative;
+            backdrop-filter: blur(15px);
+        }
+
+        .price-row::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            box-shadow: 0 0 15px transparent;
+            transition: 0.4s;
+            pointer-events: none;
+        }
+
+        .price-row:hover {
+            transform: translateX(10px);
+            background: rgba(20, 20, 20, 1);
+            border-left-color: var(--neon-green);
+            box-shadow: 0 0 30px rgba(57, 255, 20, 0.2);
+        }
+
+        .license-name { font-size: 1.6rem; font-weight: 800; color: var(--neon-cyan); text-transform: uppercase; }
+        .license-name span { color: #fff; font-size: 0.9rem; display: block; opacity: 0.7; }
+
+        .license-details { color: #eee; font-size: 0.95rem; padding: 0 20px; border-left: 1px solid rgba(255,255,255,0.1); }
+        .license-details strong { color: var(--neon-green); display: block; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 1px; }
+
+        .price-tag { font-size: 2.6rem; font-weight: 800; text-align: right; color: #fff; text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+
+        .instant-delivery {
+            text-align: center; margin-top: 30px; color: var(--neon-green);
+            letter-spacing: 4px; font-size: 0.85rem; text-transform: uppercase; font-weight: 800;
+        }
+
+        .contact-section { text-align: center; padding: 50px 0; }
+
+        .social-icons { display: flex; justify-content: center; gap: 50px; margin-bottom: 40px; }
+        .social-icons a { color: #fff; font-size: 2.8rem; transition: 0.3s; }
+        .social-icons a:hover { color: var(--neon-cyan); transform: scale(1.2); text-shadow: 0 0 20px var(--neon-cyan); }
+
+        .whatsapp-btn {
+            display: inline-block; padding: 20px 50px;
+            background: linear-gradient(90deg, var(--neon-cyan), var(--neon-green));
+            color: #000; text-decoration: none;
+            font-weight: 800; text-transform: uppercase; border-radius: 4px; transition: 0.3s;
+            letter-spacing: 1px;
+        }
+
+        .whatsapp-btn:hover { transform: scale(1.05); box-shadow: 0 0 50px var(--neon-cyan); color: #000; }
+
+        footer { text-align: center; padding: 60px 0; border-top: 1px solid #1a1a1a; font-size: 0.8rem; color: #444; }
+        /* Estilo para el enlace Yombol Music */
+        footer p a { color: inherit; text-decoration: none; font-weight: 600; }
+        footer p a:hover { color: var(--neon-cyan); }
+        .footer-links a { color: #444; text-decoration: none; margin: 0 15px; }
+        .footer-links a:hover { color: var(--neon-cyan); }
+
+        @media (max-width: 900px) {
+            .price-row { grid-template-columns: 1fr; text-align: center; gap: 15px; }
+            .price-tag { text-align: center; }
+            .license-details { border-left: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-wrapper">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <div class="container">
+        
+        <header class="banner">
+            <img src="images/Banner-(Hoodtrap).jpg" alt="Hoodtrap Beats Banner">
+        </header>
+
+        <div class="player-container">
+            <iframe src="https://player.beatstars.com/?storeId=142229" width="100%" height="800" frameborder="0"></iframe>
+        </div>
+
+        <section id="licensing">
+            <h2 class="section-title">Licensing Options</h2>
+            <div class="pricing-table">
+                <div class="price-row">
+                    <div class="license-name">Basic<span>MP3</span></div>
+                    <div class="license-details"><strong>Melodic Standard</strong>High-quality MP3 • Monetization Available • Personal Projects</div>
+                    <div class="price-tag">$5</div>
+                </div>
+                <div class="price-row">
+                    <div class="license-name">Premium<span>WAV</span></div>
+                    <div class="license-details"><strong>Studio Quality</strong>Professional WAV File • Streaming Ready • Ideal for Official Releases</div>
+                    <div class="price-tag">$10</div>
+                </div>
+                <div class="price-row">
+                    <div class="license-name">Stems<span>Trackout</span></div>
+                    <div class="license-details"><strong>Full Control</strong>WAV + Individual Track Stems • Perfect for Pro Mixing</div>
+                    <div class="price-tag">$20</div>
+                </div>
+                <div class="price-row">
+                    <div class="license-name">Exclusive<span>Ownership</span></div>
+                    <div class="license-details"><strong>Total Rights</strong>Full Ownership • Contract Included • Beat removed from store</div>
+                    <div class="price-tag">$40</div>
+                </div>
+            </div>
+            <p class="instant-delivery">Street energy. Cyber precision. Instant delivery.</p>
+        </section>
+
+        <section class="contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="social-icons">
+                <a href="https://instagram.com/YombolMusic" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/@YombolMusic" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.beatstars.com/yombolmusic/tracks" target="_blank"><i class="fas fa-music"></i></a>
+            </div>
+            <a href="https://wa.me/573194018839" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp – Let's Work</a>
+        </section>
+
+        <footer>
+            <p>© 2026 <a href="https://yombolmusic.com/en/index.html">Yombol Music</a>. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="https://yombolmusic.com/en/privacy-policy.html">Privacy Policy</a> • 
+                <a href="https://yombolmusic.com/en/cookies.html">Cookies Policy</a> • 
+                <a href="https://yombolmusic.com/en/terms-conditions.html">Terms & Conditions</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
